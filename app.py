@@ -90,4 +90,4 @@ def delete(id):
 
 if __name__ == "__main__":
     init_db()
-    app.run(host="10.64.24.207", port=1912, debug=True)
+    app.run(host="0.0.0.0", port=6001, debug=True)
